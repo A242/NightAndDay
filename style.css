@@ -1,0 +1,30 @@
+#orb {
+  width: 400px;;
+  height: 400px;
+  border-radius: 100%;
+  margin: 100px auto 0 auto;
+}
+
+.sun {
+  background: #f9b300;
+background: -moz-radial-gradient(center, ellipse cover, #f9b300 0%, #ff7d4f 0%, #ffd400 100%);
+background: -webkit-radial-gradient(center, ellipse cover, #f9b300 0%,#ff7d4f 0%,#ffd400 100%);
+background: radial-gradient(ellipse at center, #f9b300 0%,#ff7d4f 0%,#ffd400 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b300', endColorstr='#ffd400',GradientType=1 );
+  border: 10px solid #F1C40F;
+}
+
+.moon {
+  background-color: #BDC3C7;
+  border: 10px solid #EAEFF2;
+}
+
+.daySky {
+  background: url("sky.jpg");
+  background-size: 1500px;
+}
+
+.nightSky {
+  background: url("night.jpg");
+  background-size: cover;
+}
